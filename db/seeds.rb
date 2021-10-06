@@ -23,4 +23,12 @@ horror.creats([
 { title: "The Blair Witch Project", type: "show", year: "1999" descriptor: "hand held camera, low budget, witch story, lost in the woods, alt history" }
 { title: "Alien", type: "show", year: "1979" descriptor: "sci-fi horror, monster violence, survival, androids malfunctioning, AI, seminal" }
 { title: "Scream", type: "show", year: "1996" descriptor: "post modern horror, slasher, meta, bloody violence, teenage issues, mask, final girl" }
+{ title: "Candyman", type: "show", year: "1992" descriptor: "folklore, myth, curse, bees, slasher, moral reckoning" }
+{ title: "Hellraiser", type: "show", year: "1987" descriptor: "sacrilegious, BDSM, gore, cenobites, sin, pleasure" }
+{ title: " Midnight Meat Train", type: "show", year: "2008" descriptor: "demon, gore, hallucinations, street photographer" }
+{ title: "Jaws", type: "show", year: "1975" descriptor: "classic, shark, sailor, small town politics, Quint" }
+{ title: "Predator", type: "show", year: "1987" descriptor: "alien combat, survival, hunting, arnold schwarzenegger, sci-fi" }
+{ title: "The Ring", type: "show", year: "2002" descriptor: "asian horror, revenge, investigation, vhs, seven days" }
+{ title: "Wickerman", type: "show", year: "1973" descriptor: "cult classic, pagan horror, shocking ending, infamous soundtrack" }
+{ title: "The Conjuring", type: "show", year: "2013" descriptor: "supernatural, evil spirit, possession, family tragedy, haunting" }
 ])
