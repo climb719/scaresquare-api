@@ -1,0 +1,2 @@
+class Horror < ApplicationRecord
+end
