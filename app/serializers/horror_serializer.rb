@@ -1,3 +1,3 @@
 class HorrorSerializer < ActiveModel::Serializer
-  attributes :id, :title, :type, :year, :descriptor
+  attributes :id, :title, :format, :year, :descriptor
 end
