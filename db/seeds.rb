@@ -25,7 +25,7 @@ horrors = Horror.create([
 { title: "Scream", format: "show", year: "1996", descriptor: "post modern horror, slasher, meta, bloody violence, teenage issues, mask, final girl", votes: "0" },
 { title: "Candyman", format: "show", year: "1992", descriptor: "folklore, myth, curse, bees, slasher, moral reckoning", votes: "0" },
 { title: "Hellraiser", format: "show", year: "1987", descriptor: "sacrilegious, BDSM, gore, cenobites, sin, pleasure", votes: "0" },
-{ title: " Midnight Meat Train", format: "show", year: "2008", descriptor: "demon, gore, hallucinations, street photographer", votes: "0" },
+{ title: "Midnight Meat Train", format: "show", year: "2008", descriptor: "demon, gore, hallucinations, street photographer", votes: "0" },
 { title: "Jaws", format: "show", year: "1975", descriptor: "classic, shark, sailor, small town politics, Quint", votes: "0" },
 { title: "Predator", format: "show", year: "1987", descriptor: "alien combat, survival, hunting, arnold schwarzenegger, sci-fi", votes: "0" },
 { title: "The Ring", format: "show", year: "2002", descriptor: "asian horror, revenge, investigation, vhs, seven days", votes: "0" },
