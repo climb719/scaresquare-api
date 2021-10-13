@@ -16,20 +16,24 @@ class HorrorsController < ApplicationController
     end
 
     def update
-      horror = Horror.find(params[:id])
-      if horror.update(horror_params)
-        render json: horror
+      set_horror
+      if @horror.update(horror_params)
+        render json: @horror
       else
-          render json: {error: horror.errors.full_messages.to_sentence}, status: 400
+          render json: {error: @horror.errors.full_messages.to_sentence}, status: 400
       end
   end
 
+    private
+
+    def set_horror
+      @horror = Horror.find(params[:id])
     end
 
-    private
-    def horror_params
-      params.require(:horror).permit(:title, :year, :descriptor, :votes)
 
-  
+    def horror_params
+      params.require(:horror).permit(:title, :format, :year, :descriptor, :votes)
+    end
+
 
 end
