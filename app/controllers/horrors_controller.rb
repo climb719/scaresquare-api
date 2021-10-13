@@ -2,7 +2,7 @@ class HorrorsController < ApplicationController
 
 
     def index
-        horrors = Horror.all.order(:title)
+        horrors = Horror.order('LOWER(title)')
         render json: horrors
     end
 
