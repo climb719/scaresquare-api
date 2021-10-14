@@ -21,6 +21,7 @@ class HorrorsController < ApplicationController
         render json: @horror
       else
           render json: {error: @horror.errors.full_messages.to_sentence}, status: 400
+          byebug
       end
   end
 
@@ -32,7 +33,7 @@ class HorrorsController < ApplicationController
 
 
     def horror_params
-      params.require(:horror).permit(:title, :format, :year, :descriptor, :votes)
+      params.require(:horror).permit(:title, :format, :year, :descriptor, :votes, :id)
     end
 
 
